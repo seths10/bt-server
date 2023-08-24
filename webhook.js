@@ -5,9 +5,9 @@ const cors = require("cors");
 const app = express();
 const port = 3000;
 
-///app.use(cors({
-//  origin: "http://localhost:5173" // Replace with your local development environment URL
-// }));
+app.use(cors({
+  origin: "http://localhost:5173"
+}));
 
 const payloads = [];
 
