@@ -6,7 +6,7 @@ const app = express();
 const port = 3000;
 
 app.use(cors({
-  origin: 'main--https://ucc-bus-tracking.netlify.app',
+  origin: 'https://main--ucc-bus-tracking.netlify.app',
 }));
 
 const payloads = [];
