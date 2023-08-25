@@ -7,7 +7,8 @@ const port = 3000;
 
 app.use(cors({
   // origin: 'https://main--ucc-bus-tracking.netlify.app',
-  origin: "http://localhost:5173" 
+  // origin: "http://localhost:5173" 
+  origin: '*'
 }));
 
 const payloads = [];
